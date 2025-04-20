@@ -13,7 +13,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -42,5 +42,5 @@
 
 .item-4 {
     background-color: #07b1b1;
-    align-self: flex-end;
+    align-self: flex-start;
 }
