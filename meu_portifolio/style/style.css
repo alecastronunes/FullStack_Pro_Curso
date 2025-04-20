@@ -154,9 +154,45 @@
     opacity: 0.8;
     transition: 0.8s;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .project-list img:hover {
     opacity: 1;
+}
+
+.action {
+    background-color: var(--cor-fundo-header);
+    border: 0;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: var(--cor-nav-links-hover);
+    cursor: pointer;
+    margin-top: 18px;
+    transition: 0.5s;
+}
+
+.action:hover {
+    opacity: 0.8;
+}
+
+/* ESTILIZANDO O FOOTER */
+footer {
+    width: 100%;
+    background-color: var(--cor-fundo-header);
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-nav-links-hover);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor-nav-links-hover);
+}
+
+footer p {
+    margin-left: 12px;
 }
