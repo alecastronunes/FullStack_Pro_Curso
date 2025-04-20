@@ -89,7 +89,7 @@
     color: var(--cor-fundo-header);
 }
 
-/* SECTION SOBRE */
+/* ESTILIZANDO SECTION SOBRE */
 .about {
     background-color: var(--cor-nav-links-hover);
     width: 100%;
@@ -115,4 +115,48 @@
 .about div h2 {
     font-size: 39px;
     margin-bottom: 14px;
+}
+
+/* ESTILIZANDO SEÇÃO DE PROJETOS */
+
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.projects h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.projects p {
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.project-list {
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-list img {
+    width: 22%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    opacity: 0.8;
+    transition: 0.8s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.project-list img:hover {
+    opacity: 1;
 }
