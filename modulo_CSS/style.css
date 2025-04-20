@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    height: 180vh;
+}
+
+.container {
+    background-color: aqua;
+    width: 700px;
+    margin: auto;
+    padding: 50px;
+    border: 5px solid rebeccapurple;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/*
+    1. Por padrão temos o static, ou seja, estático.
+    2. O elemento relativo é posicionado em relação a sua posição norma (top, bottom, left e right).
+    3. Absolute.
+    4. Fixed.
+    5. Sticky.
+ */
+
+header {
+    background-color: blueviolet;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    border-radius: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+
+}

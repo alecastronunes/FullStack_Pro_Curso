@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <h1>Formulários</h1>
+    <form>
+        <label for="email">Seu email:</label>
+        <input type="email" name="email" id="email" placeholder="E-mail"><br><br>
+
+        <label for="pnome">Primeiro nome: </label>
+        <input type="text" id="pnome" name="pnome" placeholder="Primeiro nome" required><br><br>
+
+        <label for="unome">Último nome: </label>
+        <input type="text" name="unome" id="unome" placeholder="Último nome" required><br><br>
+
+        <label>
+            <strong>Qual seu nível como programador atualmente?</strong>
+        </label><br><br>
+
+        <label>
+            <input type="radio" name="nivel" value="iniciante" checked>Sou iniciante
+        </label>
+
+        <label>
+            <input type="radio" name="nivel" value="medio">Comecei a pouco tempo
+        </label>
+
+        <label>
+            <input type="radio" name="nivel" value="avancado">Sou avançado
+        </label><br><br>
+
+        <label>
+            <strong>Sua escolaridade</strong>
+        </label>
+
+        <select for="escolaridade" required>
+            <option selected disabled value="">Selecione</option>
+            <option>Educação Básica</option>
+            <option>Ensino Médio</option>
+            <option>Ensino Superior</option>
+            <option>Pós Graduação EaD</option>
+        </select><br><br>
+
+        <label>
+            <strong>Selecione as tecnologias que você conhece:</strong>
+        </label><br><br>
+
+        <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+        <label for="tecnologia1"> HTML</label>
+
+        <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+        <label for="tecnologia2">CSS</label>
+
+        <input type="checkbox" name="tecnologia3" id="tecnologia3" value="Javascript">
+        <label for="tecnologia3">JavaScript</label>
+
+        <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+        <label for="tecnologia4">PHP</label><br><br>
+
+        <label for="nascimento">Data nascimento:</label>
+        <input type="date" name="nascimento" id="nascimento">
+
+        <br><br>
+        <input type="submit" value="Cadastrar" id="">
+    </form>
+</body>
+
+</html>
