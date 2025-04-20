@@ -7,13 +7,16 @@
     --cor-azul: #1e96FC;
 }
 
-
 * {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* ESTILIZANDO O HEADER */
