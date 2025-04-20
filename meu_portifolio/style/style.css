@@ -3,6 +3,8 @@
     --cor-fundo-header: #181818;
     --cor-nav-links: #DDD;
     --cor-nav-links-hover: #FFF;
+    --cor-fundo-main: #000;
+    --cor-azul: #1e96FC;
 }
 
 
@@ -14,7 +16,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-/* ESTILIZANDO HEADER */
+/* ESTILIZANDO O HEADER */
 .nav {
     background-color: var(--cor-fundo-header);
     height: 80px;
@@ -38,4 +40,48 @@
 
 .nav-list a:hover {
     color: var(--cor-nav-links-hover);
+}
+
+/* ESTILIZANDO O MAIN */
+.main {
+    width: 100%;
+    background-color: var(--cor-fundo-main);
+    height: calc(100vh - 80px);
+    background-image: url(../images/programador.png);
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.main h1 {
+    color: var(--cor-nav-links-hover);
+    font-size: 54px;
+}
+
+.main p {
+    font-size: 24px;
+    font-style: italic;
+    color: var(--cor-azul);
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.call-to-action {
+    cursor: pointer;
+    background-color: var(--cor-nav-links-hover);
+    border: 0;
+    padding: 14px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+.call-to-action:hover {
+    transform: scale(1.1);
+}
+
+.main a {
+    text-decoration: none;
+    color: var(--cor-fundo-header);
 }
