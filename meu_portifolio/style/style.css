@@ -1,0 +1,41 @@
+/* VARIÁVEIS DE CORES */
+:root {
+    --cor-fundo-header: #181818;
+    --cor-nav-links: #DDD;
+    --cor-nav-links-hover: #FFF;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ESTILIZANDO HEADER */
+.nav {
+    background-color: var(--cor-fundo-header);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    padding: 20px;
+    color: var(--cor-nav-links);
+}
+
+.nav-list a:hover {
+    color: var(--cor-nav-links-hover);
+}
