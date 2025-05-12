@@ -18,16 +18,23 @@
 <body>
     <main class="container">
         <section class="left">
-            <h1>Minha Conta</h1>
+            <h1>Nova conta</h1>
 
             <form class="form">
+                <input type="text" class="input" placeholder="Nome Completo">
                 <input class="input" type="email" placeholder="Digite seu e-mail">
                 <input class="input" type="email" placeholder="Digite sua senha">
-                <button class="button" type="submit">Acessar</button>
+                <button class="button" type="submit">Criar conta</button>
+                <!-- <span class="terms"><input type="checkbox"><span>Concordo com os termos.</span></span> -->
             </form>
 
             <div class="area">
-                <span class="link">Novo por aqui? <a href="subscribe.html">Cadastre-se.</a></span>
+                <input type="checkbox" name="termos" id="termos" class="termos">
+                <span>Concordo com os termos.</span>
+            </div>
+
+            <div class="area">
+                <span class="link">Já possui uma conta? <a href="index.html">Faça login.</a></span>
             </div>
         </section>
 
