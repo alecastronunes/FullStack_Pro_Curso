@@ -181,8 +181,8 @@ input[type="password"] {
 
     .form::before {
         background-size: 82px;
-        width: 82px;
-        height: 82px;
+        width: 81px;
+        height: 81px;
         bottom: -46;
         right: -30px;
     }
@@ -211,4 +211,3 @@ input[type="password"] {
         background-image: none;
     }
 }
-  
