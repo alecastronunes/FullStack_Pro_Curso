@@ -29,3 +29,17 @@ function calcularMedia(n1, n2, n3) {
     console.log("Você foi reprovado. Média: " + media.toFixed(2));
   }
 }
+
+
+function exibirNome() {
+  let nome = "Boruto"; // Variável com escopo de função.
+
+  if (true) {
+    let idade = 30;
+    console.log(nome, idade); // Variável com escopo de bloco.
+  }
+
+  console.log(idade);
+}
+
+exibirNome();
