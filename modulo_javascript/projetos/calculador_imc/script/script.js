@@ -47,7 +47,7 @@ function calcular(event) {
         "</br> Você está acima do peso.</h4>";
     }
   } else if (!pesoValido && !alturaValida) {
-    alert("Peso e altura inválidos. Digite apenas números");
+    alert("Peso e altura inválidos. Digite apenas números.");
   } else if (!pesoValido) {
     alert("Peso inválido. Digite apenas números.");
   } else {
