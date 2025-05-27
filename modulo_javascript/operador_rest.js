@@ -9,8 +9,8 @@ function sorteador(...numeros) {
   console.log(numeros);
   const sortearNumero = Math.floor(Math.random() * numeros.length);
  
-  console.log(sortearNumero);
-  console.log(numeros[sortearNumero]);
+  console.log("Índice -> " + sortearNumero);
+  console.log("Valor -> " + numeros[sortearNumero]);
 }
 
 sorteador(15, 33, 34, 2, 6, 7, 8, 98, 100, 102, 58);
