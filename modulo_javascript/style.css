@@ -1,0 +1,28 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    outline: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #E4DEE4;
+}
+
+ul {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+img {
+    max-width: 450px;
+    height: 250px;
+    border-radius: 4px;
+    margin: 8px 0;
+}
