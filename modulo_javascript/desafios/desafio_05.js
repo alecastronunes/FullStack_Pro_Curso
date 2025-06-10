@@ -10,4 +10,4 @@ function encontrarNumero(Listanumeros, numero) {
 
 let numeros = [3, 6, 5, 4, 5, 0, 4, 8, 10, 50];
 
-encontrarNumero(numeros, 50);
+encontrarNumero(numeros, 8);
