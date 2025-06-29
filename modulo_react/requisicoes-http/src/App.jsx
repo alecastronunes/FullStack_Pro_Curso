@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 
-//https://sujeitoprogramador.com/rn-api/?api=posts
 function App() {
   const [nutri, setNutri] = useState([]);
 
