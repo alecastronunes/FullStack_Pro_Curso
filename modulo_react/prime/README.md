@@ -4,6 +4,8 @@ Este projeto consiste em um catálogo de filmes que tem por finalidade exibir os
 
 Na página "Meus filmes" o usuário pode verificar os detalhes de cada filme, e também há um botão "Excluir", caso o usuário deseje remover algum filme da lista.
 
+**Acesse aqui**: <https://the-movie-flix.vercel.app/>
+
 ## Tecnologias Utilizadas
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
