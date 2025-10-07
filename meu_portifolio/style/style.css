@@ -95,14 +95,14 @@ html {
 /* ESTILIZANDO SECTION SOBRE */
 .about {
     background-color: var(--cor-nav-links-hover);
-    width: 100%;
+    width: 100%; 
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 80px;
     padding-bottom: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;  
 }
 
 .about div {
